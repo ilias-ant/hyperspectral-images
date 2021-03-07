@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "hyperspectral-images"
+version = "0.1.0"
+description = "Processing of HSIs: spectral unmixing and classification."
+authors = ["ilias-ant <ilias.antonopoulos@yahoo.gr>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/ilias-ant/hyperspectral-images"
+keywords = ["hyperspectral-imaging", "classification", "spectral-unmixing"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/ilias-ant/hyperspectral-images/issues"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+matplotlib = "^3.3.4"
+notebook = "^6.2.0"
+scikit-learn = "^0.24.1"
+scipy = "^1.6.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
