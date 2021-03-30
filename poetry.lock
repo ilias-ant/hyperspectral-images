@@ -86,6 +86,14 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
+name = "cvxopt"
+version = "1.2.6"
+description = "Convex optimization package"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "cycler"
 version = "0.10.0"
 description = "Composable style cycles"
@@ -713,7 +721,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "97abe357b24518026d24bf153777f0e6a2133cbdea10ee09377b2366ceb01ff9"
+content-hash = "878ce70a2cbc26a028bc89dcf21a11fa05909c2fb46e7c66f6c60ea38779eefa"
 
 [metadata.files]
 appnope = [
@@ -798,6 +806,34 @@ cffi = [
 colorama = [
     {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
     {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
+]
+cvxopt = [
+    {file = "cvxopt-1.2.6-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:b5b2288a467c0c3996899c10783c8d78878aeb01d43a66697e9993ff76ac5cae"},
+    {file = "cvxopt-1.2.6-cp27-cp27m-manylinux1_i686.whl", hash = "sha256:c57d7d2347ba98432a2ed5af3169026db6d191274c49fccb5357a7cdfb410e5b"},
+    {file = "cvxopt-1.2.6-cp27-cp27m-manylinux1_x86_64.whl", hash = "sha256:0cd32bed5fec871d36d32f0a86c927e2837b9c60fc23b6f777108c3a95f248e5"},
+    {file = "cvxopt-1.2.6-cp27-cp27mu-manylinux1_i686.whl", hash = "sha256:0b335bf18f7e42326105f9090e5bb7bbdecfce3c3b4c612ca4e538b00383e937"},
+    {file = "cvxopt-1.2.6-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:97f7624837bd2e072bd909d4c53155b13a427dac6e0c2ea3d5e471443c289489"},
+    {file = "cvxopt-1.2.6-cp35-cp35m-macosx_10_6_intel.whl", hash = "sha256:5980abb9a7e43a072dfd95e7c542e43afc2cb487f11000e33be2854dafcf15fe"},
+    {file = "cvxopt-1.2.6-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:5f2e9e308d931bd52f4dbb55073edebd03073e5f1627f82959da4b95321f89dd"},
+    {file = "cvxopt-1.2.6-cp35-cp35m-win32.whl", hash = "sha256:fa5568d4d64e4cc24da4094c0066c67308e805287a742ad298f122f0cad360ca"},
+    {file = "cvxopt-1.2.6-cp35-cp35m-win_amd64.whl", hash = "sha256:d505932dfe734ff14ee0c3c04fc5618bb7cc744f59e0edfed4a8851deab8ee42"},
+    {file = "cvxopt-1.2.6-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:6ab795743b0e42529d015b889576783a1264e6056417f54870c42db191482065"},
+    {file = "cvxopt-1.2.6-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:fb1149e2764e5284b560434cbc5ee7e60199fc7eaf850d5ba26d02fbc24d4006"},
+    {file = "cvxopt-1.2.6-cp36-cp36m-win32.whl", hash = "sha256:7db648536ecef417df42108b7b779891946a6cc791b74e843d23d846c5576d1a"},
+    {file = "cvxopt-1.2.6-cp36-cp36m-win_amd64.whl", hash = "sha256:7cd9f1c8404ed507257550f485b3394b1a38087da4ff70032dca964a73e138f3"},
+    {file = "cvxopt-1.2.6-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:1e76dabd13377f6876073041beee67e4613879a1ac6a572a9254aafa8ca7f7fe"},
+    {file = "cvxopt-1.2.6-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:368caf7d2130670e6e48af0d611ae41713a98d7643f7d64a6aeabefad50e76c4"},
+    {file = "cvxopt-1.2.6-cp37-cp37m-win32.whl", hash = "sha256:95b2cd31d57341279e98888479c71496529eade2eccf5582e671ce96ef575c38"},
+    {file = "cvxopt-1.2.6-cp37-cp37m-win_amd64.whl", hash = "sha256:f343ddd406caec05408d007e313022a073a7466c0356ac96e20256d0b542916b"},
+    {file = "cvxopt-1.2.6-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:fdeb3ce110708229ee4acbd4c894ffe031e2dafb2ba6469068fed0cc20671b89"},
+    {file = "cvxopt-1.2.6-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:c420cf196c8d2733022f29e77ace46871b82f2f2a25edcb585a20c0c76bec02d"},
+    {file = "cvxopt-1.2.6-cp38-cp38-win32.whl", hash = "sha256:ba75971b78777ec10361de81a1feb6f27757b505054dbe3cfde5a4f19cccbe2e"},
+    {file = "cvxopt-1.2.6-cp38-cp38-win_amd64.whl", hash = "sha256:b7a9ee4d3ecdd0f2a190e935613073c15594b52f581e0327ba4e869277f793f7"},
+    {file = "cvxopt-1.2.6-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:edae9dafec8f52594ae6312b9ff811ad10d0504ca935e09aa66a309e6d7c2397"},
+    {file = "cvxopt-1.2.6-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:2bac183859127ebc473b9bc66be17c0dbc8a3c8bd0939d460cfe6d141bc545db"},
+    {file = "cvxopt-1.2.6-cp39-cp39-win32.whl", hash = "sha256:3eb14814b7b79f765e107c50b0961e71d47a36a760ccf3f1fde2ca65d75a9f11"},
+    {file = "cvxopt-1.2.6-cp39-cp39-win_amd64.whl", hash = "sha256:6e05d9f541368950bfb7b0ab1f648087397a60728fd4699fe29e90462931ac39"},
+    {file = "cvxopt-1.2.6.tar.gz", hash = "sha256:a4c433706fd0ad9d47e7f222773a7f7601766fb8e74b633524b3c3fce29aa73e"},
 ]
 cycler = [
     {file = "cycler-0.10.0-py2.py3-none-any.whl", hash = "sha256:1d8a5ae1ff6c5cf9b93e8811e581232ad8920aeec647c37316ceac982b08cb2d"},
